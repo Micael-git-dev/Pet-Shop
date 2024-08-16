@@ -1,0 +1,80 @@
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#logo-nomeLoja {
+	display: flex;
+	width: 100%;
+	background-color: #FFDAB9;
+	float: left;
+	font-family: "Lucida Console", Courier, monospace;
+	border-radius: 15px;
+}
+
+#logo {
+	flex: 1;
+	text-align: center;
+}
+
+#logoImg {
+	
+	height: 100px;
+	width: 105px;	
+	float: left;
+}
+
+#nome-loja {
+	flex: 2;
+	width:90%;
+	text-align: left;
+	font-size: 55px;
+}
+p#sobre {
+	text-align: center;
+	font-size: 20px;
+}
+.a{
+	text-align: center;
+	font-size: 34px;
+	font-family: Fantasy;
+	text-decoration: underline;
+}
+.IMG-a {
+	display: flex;
+	height: 320px;
+	width: 440px;
+	object-fit: cover;	
+	border-radius: 15px;
+	
+}
+.IMG-b {
+	display: flex;
+	height: 320px;
+	width: 440px;
+	object-fit: cover;	
+	border-radius: 15px;
+}
+.b{
+	text-align: center;
+	font-size: 34px;
+	font-family: Fantasy;
+	text-decoration: underline;
+}
+.fixed-image {
+	position: fixed; 
+    bottom: 10px;
+    right: 10px; 
+    width: 100px; 
+    height: 100px; 
+    border: 2px solid #ddd;
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000; 
+}
+.fixed-image img {
+    width: 95%; 
+    height: 95%; 
+    object-fit: cover; 
+}
